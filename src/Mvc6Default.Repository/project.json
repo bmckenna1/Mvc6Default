@@ -1,0 +1,16 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "Mvc6Default": { "target": "project" },
+    "Mvc6Default.Business": { "target": "project" },
+    "Mvc6Default.Security": { "target": "project" }
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
